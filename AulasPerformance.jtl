@@ -2869,4 +2869,3441 @@
   <java.net.URL>http://detectportal.firefox.com/success.txt?ipv6</java.net.URL>
 </httpSample>
 
+<httpSample t="1676" it="0" lt="1676" ct="1569" ts="1676714412816" s="true" lb="url" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="3054" sby="451" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/login</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1676714414813" s="true" lb="login" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="1119" sby="827" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/login</java.net.URL>
+</httpSample>
+<httpSample t="346" it="0" lt="346" ct="0" ts="1676714415179" s="true" lb="Login" rc="201" rm="Created" tn="SuperAdminLogin 1-1" dt="text" by="6540" sby="1034" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/login/virtual-signin</java.net.URL>
+</httpSample>
+<httpSample t="395" it="0" lt="395" ct="0" ts="1676714415828" s="true" lb="schedule" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="12007" sby="838" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/schedule-new/</java.net.URL>
+</httpSample>
+<httpSample t="456" it="0" lt="456" ct="0" ts="1676714416520" s="true" lb="subscription" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="1066" sby="866" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/schedule-new/subscription/user-hours-data</java.net.URL>
+</httpSample>
+<sample t="2931" it="1879" lt="2931" ct="1569" ts="1676714412164" s="true" lb="UserLogIn" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="SuperAdminLogin 1-1" dt="" by="23786" sby="4016" ng="1" na="1"/>
+<httpSample t="199" it="0" lt="199" ct="141" ts="1676714417233" s="true" lb="TC_UM_001_AddUserSettings 18/02/2023 03:30:17 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1072" sby="980" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/addUserSettings</java.net.URL>
+</httpSample>
+<httpSample t="175" it="0" lt="175" ct="102" ts="1676714417319" s="true" lb="TC_Course_001_AllCourses 18/02/2023 03:30:17 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="6496" sby="843" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="198" it="0" lt="198" ct="92" ts="1676714417398" s="true" lb="TC_Course_001_AllCourses 18/02/2023 03:30:17 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="6496" sby="843" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="228" it="0" lt="210" ct="90" ts="1676714417384" s="true" lb="TC_Class_001_GetAllClassrooms 18/02/2023 03:30:17 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="32929" sby="835" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1676714417613" s="true" lb="TC_Class_002_GetAllCourses 18/02/2023 03:30:17 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="6496" sby="846" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="90" it="0" lt="90" ct="0" ts="1676714417673" s="true" lb="TC_Class_003_AddASection1 18/02/2023 03:30:17 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="617" it="0" lt="617" ct="145" ts="1676714417193" s="true" lb="TC_UR_001_Teacher Registeration 18/02/2023 03:30:17 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1440" sby="1398" ng="1" na="5">
+  <assertionResult>
+    <name>Text Assertion Details have been updated and sent for approval</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/register</java.net.URL>
+</httpSample>
+<httpSample t="135" it="0" lt="135" ct="0" ts="1676714417738" s="true" lb="TC_UM_002_AddAStudent 18/02/2023 03:30:17 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1676714417985" s="true" lb="TC_Class_004_GetASection1 18/02/2023 03:30:17 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1111" sby="856" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/525</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="95" ct="0" ts="1676714418363" s="true" lb="TC_Class_005_UpdateSection1Details 18/02/2023 03:30:18 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1233" sby="1048" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Section has been updated successfully!</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/edit-single</java.net.URL>
+</httpSample>
+<httpSample t="141" it="0" lt="123" ct="0" ts="1676714418363" s="true" lb="TC_UM_003_GetAStudent 18/02/2023 03:30:18 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="41605" sby="845" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/6129</java.net.URL>
+</httpSample>
+<httpSample t="517" it="0" lt="517" ct="0" ts="1676714417995" s="true" lb="TC_UR_002_Teacher Rejected 18/02/2023 03:30:17 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1098" sby="981" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Rejected</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="1349" it="0" lt="1307" ct="0" ts="1676714417505" s="true" lb="TC_Fee_001_GetFeePage 18/02/2023 03:30:17 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="54188" sby="886" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-01-29&amp;endDate=2023-02-04</java.net.URL>
+</httpSample>
+<httpSample t="159" it="0" lt="159" ct="0" ts="1676714418779" s="true" lb="TC_Class_006_AddAStudent1 18/02/2023 03:30:18 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="199" it="0" lt="199" ct="0" ts="1676714418815" s="true" lb="TC_UM_004_UpdateAStudent 18/02/2023 03:30:18 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1665" sby="2543" ng="1" na="5">
+  <assertionResult>
+    <name>Text Response User details updated</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="594" it="0" lt="594" ct="0" ts="1676714418516" s="true" lb="TC_UR_003_Teacher Approved 18/02/2023 03:30:18 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1577" sby="981" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Approved</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="124" it="0" lt="124" ct="0" ts="1676714419297" s="true" lb="TC_Class_007_AddAStudent2 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="112" it="0" lt="112" ct="0" ts="1676714419332" s="true" lb="TC_UM_005_DeleteAStudent 18/02/2023 03:30:19 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6129</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1676714419431" s="true" lb="TC_Class_008_SearchStudent 18/02/2023 03:30:19 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1068" sby="883" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/autocomplete?name=Mahi&amp;role=Student</java.net.URL>
+</httpSample>
+<httpSample t="106" it="0" lt="106" ct="0" ts="1676714419446" s="true" lb="TC_UR_004_DeleteATeacher 18/02/2023 03:30:19 PM" rc="200" rm="OK" tn="User Registration  1-1" dt="text" by="1050" sby="982" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6130</java.net.URL>
+</httpSample>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1676714419554" s="true" lb="TC_UR_005_AddUserSettings 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1072" sby="980" ng="1" na="5">
+  <assertionResult>
+    <name>Text Assertion Setting has been updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUserSettings</java.net.URL>
+</httpSample>
+<httpSample t="108" it="0" lt="108" ct="0" ts="1676714419503" s="true" lb="TC_Class_009_AssignStudents 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1012" sby="1008" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Message Class Assigned</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/assign-students</java.net.URL>
+</httpSample>
+<httpSample t="67" it="0" lt="67" ct="0" ts="1676714419614" s="true" lb="TC_Class_010_AddASection2 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="138" it="0" lt="138" ct="0" ts="1676714419685" s="true" lb="TC_Class_011_TransferStudentToSection2 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1017" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Message Student(s) Moved Successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/move-students</java.net.URL>
+</httpSample>
+<httpSample t="973" it="0" lt="967" ct="0" ts="1676714418858" s="true" lb="TC_Fee_002_GetFeePageWeekChange 18/02/2023 03:30:18 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="54189" sby="886" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="143" it="0" lt="143" ct="0" ts="1676714419827" s="true" lb="TC_Class_012_UnassignStudentFromSection1 18/02/2023 03:30:19 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1011" sby="996" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Student unassigned</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/students</java.net.URL>
+</httpSample>
+<httpSample t="424" it="0" lt="424" ct="0" ts="1676714419609" s="true" lb="TC_UR_006_Student Registration 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1493" sby="1499" ng="1" na="5">
+  <assertionResult>
+    <name>Text Assertion Details have been updated and sent for approval</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/register</java.net.URL>
+</httpSample>
+<httpSample t="503" it="0" lt="503" ct="0" ts="1676714419749" s="true" lb="TC_UM_006_AddATeacher 18/02/2023 03:30:19 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1600" sby="1068" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="84" it="0" lt="84" ct="0" ts="1676714420282" s="true" lb="TC_Class_013_CreateSubjectsForSection1 18/02/2023 03:30:20 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1015" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subjects created successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-subjects</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1676714420369" s="true" lb="TC_Class_014_GetASection1 18/02/2023 03:30:20 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1428" sby="856" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/standards/525</java.net.URL>
+</httpSample>
+<httpSample t="572" it="0" lt="572" ct="0" ts="1676714420038" s="true" lb="TC_UR_007_Student Rejected 18/02/2023 03:30:20 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1097" sby="981" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Rejected</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="86" it="0" lt="86" ct="0" ts="1676714420567" s="true" lb="TC_UM_007_GetATeacher 18/02/2023 03:30:20 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2039" sby="864" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/6133</java.net.URL>
+</httpSample>
+<httpSample t="134" it="0" lt="134" ct="0" ts="1676714420610" s="true" lb="TC_Course_002_AddACourse 18/02/2023 03:30:20 PM" rc="201" rm="Created" tn="CoursesModule 5-1" dt="text" by="1010" sby="1403" ng="1" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/updateCourse</java.net.URL>
+</httpSample>
+<httpSample t="929" it="0" lt="917" ct="0" ts="1676714419833" s="true" lb="TC_Fee_003_GetFeePageMonth 18/02/2023 03:30:19 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="54724" sby="897" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=month&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;year=2023</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1676714420751" s="true" lb="TC_Course_003_CoursesPage 18/02/2023 03:30:20 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="6699" sby="843" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="89" it="0" lt="88" ct="0" ts="1676714420755" s="true" lb="TC_Class_015_CreateChaptersInSubjectOne 18/02/2023 03:30:20 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1026" sby="1037" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response  Chapters added successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-chapters</java.net.URL>
+</httpSample>
+<httpSample t="242" it="0" lt="242" ct="0" ts="1676714420968" s="true" lb="TC_UM_008_UpdateATeacher 18/02/2023 03:30:20 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1700" sby="3206" ng="1" na="5">
+  <assertionResult>
+    <name>Text Response User details updated</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="130" it="0" lt="130" ct="0" ts="1676714421151" s="true" lb="TC_Class_016_CreateChaptersInSubjectTwo 18/02/2023 03:30:21 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1026" sby="1035" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response  Chapters added successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-chapters</java.net.URL>
+</httpSample>
+<httpSample t="792" it="0" lt="791" ct="0" ts="1676714420615" s="true" lb="TC_UR_008_Student Approved 18/02/2023 03:30:20 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1575" sby="981" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Approved</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="186" it="0" lt="186" ct="0" ts="1676714421286" s="true" lb="TC_Class_017_GetASection1 18/02/2023 03:30:21 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1985" sby="856" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/525</java.net.URL>
+</httpSample>
+<httpSample t="739" it="0" lt="729" ct="0" ts="1676714420765" s="true" lb="TC_Fee_004_GetFeePageMonthChange 18/02/2023 03:30:20 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="54725" sby="897" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=month&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;year=2022</java.net.URL>
+</httpSample>
+<httpSample t="128" it="0" lt="128" ct="0" ts="1676714421481" s="true" lb="TC_Class_018_EditSubjectOneName 18/02/2023 03:30:21 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1386" sby="1009" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject edited successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/edit-subject</java.net.URL>
+</httpSample>
+<httpSample t="184" it="0" lt="184" ct="0" ts="1676714421509" s="true" lb="TC_Fee_005_UpdateSettings 18/02/2023 03:30:21 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1014" sby="1004" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/updateSettings</java.net.URL>
+</httpSample>
+<httpSample t="201" it="0" lt="201" ct="0" ts="1676714421613" s="true" lb="TC_Class_019_EditSubjectTwoName 18/02/2023 03:30:21 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1386" sby="1009" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject edited successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/edit-subject</java.net.URL>
+</httpSample>
+<httpSample t="288" it="0" lt="288" ct="0" ts="1676714421526" s="true" lb="TC_UM_009_DeleteATeacher 18/02/2023 03:30:21 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="982" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6133</java.net.URL>
+</httpSample>
+<httpSample t="325" it="0" lt="325" ct="0" ts="1676714421698" s="true" lb="TC_Class_003_AddASection1 18/02/2023 03:30:21 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="210" it="0" lt="210" ct="0" ts="1676714421818" s="true" lb="TC_Class_020_EditChaptersInSubject1 18/02/2023 03:30:21 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1025" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Chapters updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/edit-chapters</java.net.URL>
+</httpSample>
+<httpSample t="313" it="0" lt="313" ct="0" ts="1676714421715" s="true" lb="TC_UR_009_DeleteAStudent 18/02/2023 03:30:21 PM" rc="200" rm="OK" tn="User Registration  1-1" dt="text" by="1050" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6134</java.net.URL>
+</httpSample>
+<httpSample t="203" it="0" lt="202" ct="0" ts="1676714422035" s="true" lb="TC_Class_021_AddANewSection1ToClass 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="222" it="0" lt="222" ct="0" ts="1676714422130" s="true" lb="TC_UM_010_AddADataOperator 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1624" sby="1092" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="120" it="0" lt="120" ct="0" ts="1676714422338" s="true" lb="TC_Class_006_AddAStudent1 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="469" it="0" lt="469" ct="0" ts="1676714422039" s="true" lb="TC_UR_010_Data Operator Registration 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1445" sby="1415" ng="1" na="5">
+  <assertionResult>
+    <name>Text Assertion Details have been updated and sent for approval</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/register</java.net.URL>
+</httpSample>
+<httpSample t="178" it="0" lt="178" ct="0" ts="1676714422463" s="true" lb="TC_Class_009_AssignStudents 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1012" sby="1003" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Message Class Assigned</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/assign-students</java.net.URL>
+</httpSample>
+<httpSample t="102" it="0" lt="102" ct="0" ts="1676714422556" s="true" lb="TC_Class_022_CreateSubjectsForNewSection1 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1015" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subjects created successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-subjects</java.net.URL>
+</httpSample>
+<httpSample t="69" it="0" lt="69" ct="0" ts="1676714422663" s="true" lb="TC_Class_023_CloneSubjectsToNewSection2 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1025" sby="965" ng="1" na="5">
+  <assertionResult>
+    <name>Text Response Section cloned successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/clone</java.net.URL>
+</httpSample>
+<httpSample t="81" it="0" lt="81" ct="0" ts="1676714422657" s="true" lb="TC_UM_011_GetADataOperator 18/02/2023 03:30:22 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2087" sby="870" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/userId/6135</java.net.URL>
+</httpSample>
+<httpSample t="91" it="0" lt="90" ct="0" ts="1676714422735" s="true" lb="TC_Class_024_TransferSectionToAnotherClass 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1015" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Section transferred successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/move</java.net.URL>
+</httpSample>
+<httpSample t="119" it="0" lt="118" ct="0" ts="1676714422830" s="true" lb="TC_Class_025_DeleteChaptersInSubjectOne 18/02/2023 03:30:22 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1032" sby="1061" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Chapters have been deleted successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/delete-chapters?chapterIds[]=2461&amp;chapterIds[]=2460</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1676714422952" s="true" lb="TC_Class_026_DeleteSubject1 18/02/2023 03:30:22 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1034" sby="1039" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject(s) have been removed successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/delete-subjects?standardId=525&amp;subjectId=430</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1676714423032" s="true" lb="TC_Class_027_DeleteSubject2 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1034" sby="1039" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject(s) have been removed successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/delete-subjects?standardId=525&amp;subjectId=431</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="58" ct="0" ts="1676714423102" s="true" lb="TC_Class_028_ClickOnCurriculums 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="3488" sby="863" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/master-subjects/curriculums</java.net.URL>
+</httpSample>
+<httpSample t="138" it="0" lt="138" ct="0" ts="1676714423054" s="true" lb="TC_UM_012_UpdateADataOperator 18/02/2023 03:30:23 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1710" sby="3313" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1676714423164" s="true" lb="TC_Class_029_SelectSubjects 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="914" sby="888" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/master-subjects/subjects?curriculumId=1&amp;standardId=1</java.net.URL>
+</httpSample>
+<httpSample t="641" it="0" lt="630" ct="0" ts="1676714422647" s="true" lb="TC_Fee_006_GetFeePage 18/02/2023 03:30:22 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="55319" sby="897" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=month&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;year=2022</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1676714423293" s="true" lb="TC_Fee_007_GetfeeStandards 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="12128" sby="848" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/byStandards</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1676714423366" s="true" lb="TC_Fee_008_GetUser 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1215" sby="859" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/getUser?standardId=527</java.net.URL>
+</httpSample>
+<httpSample t="73" it="0" lt="73" ct="0" ts="1676714423431" s="true" lb="TC_Fee_009_GenerateFeeRequestForStudent 18/02/2023 03:30:23 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1031" sby="1298" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="97" it="0" lt="97" ct="0" ts="1676714423505" s="true" lb="TC_UM_013_DeleteADataOperator 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="988" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6135</java.net.URL>
+</httpSample>
+<httpSample t="139" it="0" lt="139" ct="0" ts="1676714423513" s="true" lb="TC_Class_031_DeleteAStudent1 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1051" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6131</java.net.URL>
+</httpSample>
+<httpSample t="1244" it="0" lt="1244" ct="0" ts="1676714422514" s="true" lb="TC_UR_011_Data operator Rejected 18/02/2023 03:30:22 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1097" sby="981" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Rejected</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="83" it="0" lt="82" ct="0" ts="1676714423841" s="true" lb="TC_Course_004_UpdateACourse 18/02/2023 03:30:23 PM" rc="201" rm="Created" tn="CoursesModule 5-1" dt="text" by="1012" sby="1224" ng="1" na="5">
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/updateCourse</java.net.URL>
+</httpSample>
+<httpSample t="485" it="0" lt="480" ct="0" ts="1676714423510" s="true" lb="TC_Fee_010_GetFeePage 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="55174" sby="886" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1676714423996" s="true" lb="TC_Fee_011_GetfeeStandards 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="12128" sby="848" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/byStandards</java.net.URL>
+</httpSample>
+<httpSample t="155" it="0" lt="155" ct="0" ts="1676714423909" s="true" lb="TC_UM_014_AddAOperation 18/02/2023 03:30:23 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1621" sby="1089" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="122" it="0" lt="121" ct="0" ts="1676714423957" s="true" lb="TC_Class_032_DeleteAStudent2 18/02/2023 03:30:23 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1050" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6132</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="0" ts="1676714424061" s="true" lb="TC_Fee_012_GetUser 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1215" sby="859" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/getUser?standardId=527</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1676714424126" s="true" lb="TC_Fee_013_GenerateFeeRequestForClass 18/02/2023 03:30:24 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1031" sby="1283" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/standard</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1676714424244" s="true" lb="TC_Course_005_DeleteCourse 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="1007" sby="974" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/deleteCouse/176</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1676714424322" s="true" lb="TC_Course_006_AllCourses 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="1086" sby="855" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses?search=ghkj</java.net.URL>
+</httpSample>
+<sample t="607" it="6374" lt="606" ct="92" ts="1676714417396" s="true" lb="CoursesPage" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="CoursesModule 5-1" dt="" by="17310" sby="6142" ng="1" na="5"/>
+<httpSample t="82" it="0" lt="82" ct="0" ts="1676714424377" s="true" lb="TC_UM_015_GetAOperations 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2081" sby="845" ng="1" na="4">
+  <java.net.URL>https://test.aulas.one/api/user/userId/6138</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="60" ct="0" ts="1676714424399" s="true" lb="TC_Class_033_DeleteSection1 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1001" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<httpSample t="432" it="0" lt="418" ct="0" ts="1676714424196" s="true" lb="TC_Fee_014_GetFeePage 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="55367" sby="886" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="885" it="0" lt="885" ct="0" ts="1676714423761" s="true" lb="TC_UR_012_Data Operator Approved 18/02/2023 03:30:23 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1581" sby="981" ng="1" na="4">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Approved</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="125" it="0" lt="90" ct="0" ts="1676714424631" s="true" lb="TC_Fee_016_AllTransactions 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="108007" sby="882" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?status=paidAndRefunded&amp;page=1</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1676714424758" s="true" lb="TC_Fee_017_GetUser 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1215" sby="859" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/getUser?standardId=527</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1676714424766" s="true" lb="TC_Class_034_DeleteSection2 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1001" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<httpSample t="76" it="0" lt="65" ct="0" ts="1676714424817" s="true" lb="TC_Fee_018_GetTransactions-by-User 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="87631" sby="874" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/transactions-by-user/263/5286?search=</java.net.URL>
+</httpSample>
+<httpSample t="140" it="0" lt="139" ct="0" ts="1676714424766" s="true" lb="TC_UM_016_UpdateOperations 18/02/2023 03:30:24 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1698" sby="3134" ng="1" na="4">
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1676714424835" s="true" lb="TC_Class_035_AddANewClass 18/02/2023 03:30:24 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="4">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1676714424895" s="true" lb="TC_Fee_019_AddOfflinePayment 18/02/2023 03:30:24 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1028" sby="1299" ng="1" na="4">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Transaction added successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="73" it="0" lt="73" ct="0" ts="1676714424908" s="true" lb="TC_Class_036_UpdateClassDetails 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1227" ng="1" na="4">
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<httpSample t="98" it="0" lt="98" ct="0" ts="1676714424956" s="true" lb="TC_UR_013_DeleteADataOperator 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="User Registration  1-1" dt="text" by="1050" sby="988" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6137</java.net.URL>
+</httpSample>
+<httpSample t="86" it="0" lt="86" ct="0" ts="1676714425208" s="true" lb="TC_UM_017_DeleteOperations 18/02/2023 03:30:25 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="963" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6138</java.net.URL>
+</httpSample>
+<sample t="2906" it="5158" lt="2887" ct="141" ts="1676714417231" s="true" lb="TC_User_001_API Operations" rc="200" rm="Number of samples in transaction : 17, number of failing samples : 0" tn="User Management 2-1" dt="" by="66259" sby="24794" ng="1" na="4"/>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1676714425290" s="true" lb="TC_Class_037_DeleteClass 18/02/2023 03:30:25 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1001" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<sample t="3852" it="4117" lt="3826" ct="90" ts="1676714417383" s="true" lb="ClassRoomsModule" rc="200" rm="Number of samples in transaction : 36, number of failing samples : 0" tn="ClassRoomsModule 4-1" dt="" by="80841" sby="35522" ng="1" na="4"/>
+<httpSample t="334" it="0" lt="334" ct="0" ts="1676714425056" s="true" lb="TC_UR_014_Operation Registration 18/02/2023 03:30:25 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1441" sby="1387" ng="1" na="3">
+  <assertionResult>
+    <name>Text Assertion Details have been updated and sent for approval</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/register</java.net.URL>
+</httpSample>
+<httpSample t="111" it="0" lt="111" ct="0" ts="1676714425296" s="true" lb="UsersPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="6066" sby="890" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/stats?type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="158" it="0" lt="158" ct="0" ts="1676714425408" s="true" lb="StudentsPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="12847" sby="922" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Student&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="626" it="0" lt="616" ct="0" ts="1676714424971" s="true" lb="TC_Fee_020_GetFeePage 18/02/2023 03:30:24 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="55678" sby="886" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="174" it="0" lt="174" ct="0" ts="1676714425568" s="true" lb="TeachersPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="7481" sby="921" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Teacher&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="179" it="0" lt="160" ct="0" ts="1676714425599" s="true" lb="TC_Fee_021_AllTransactionsPage 18/02/2023 03:30:25 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="107497" sby="874" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?page=1</java.net.URL>
+</httpSample>
+<httpSample t="223" it="0" lt="223" ct="0" ts="1676714425744" s="true" lb="DataOperatorsPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="7211" sby="932" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Dataoperator&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="240" it="0" lt="239" ct="0" ts="1676714425780" s="true" lb="TC_Fee_022_Download-report 18/02/2023 03:30:25 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1000" sby="885" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/download-report?filter=lastweek</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1676714426024" s="true" lb="TC_Fee_023_GenerateFeeForSelectedStudents 18/02/2023 03:30:26 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1031" sby="1314" ng="1" na="3">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="339" it="0" lt="339" ct="0" ts="1676714425969" s="true" lb="OperationsPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="7671" sby="926" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Operation&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="80" it="0" lt="80" ct="0" ts="1676714426310" s="true" lb="PendingClick" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2649" sby="873" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=pending</java.net.URL>
+</httpSample>
+<httpSample t="251" it="0" lt="233" ct="0" ts="1676714426094" s="true" lb="TC_Fee_024_GetTransactionsId 18/02/2023 03:30:26 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="107700" sby="873" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?page=1</java.net.URL>
+</httpSample>
+<httpSample t="80" it="0" lt="80" ct="0" ts="1676714426392" s="true" lb="RejectedClick" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="5132" sby="874" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected</java.net.URL>
+</httpSample>
+<httpSample t="79" it="0" lt="79" ct="0" ts="1676714426456" s="true" lb="TC_Fee_024_CancelRequest 18/02/2023 03:30:26 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1010" sby="986" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Request cancelled</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/cancel-request/2217</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1676714426473" s="true" lb="StudentInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="3522" sby="887" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Student</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1676714426544" s="true" lb="TeacherInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1481" sby="887" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Teacher</java.net.URL>
+</httpSample>
+<httpSample t="102" it="0" lt="99" ct="0" ts="1676714426538" s="true" lb="TC_Fee_025_GetUserId 18/02/2023 03:30:26 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="42189" sby="865" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/6136</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1676714426616" s="true" lb="DataOperatorInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1807" sby="892" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=DataOperator</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1676714426642" s="true" lb="TC_Fee_026_GetStudentCourses 18/02/2023 03:30:26 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="9937" sby="861" ng="1" na="3">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/courses</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1676714426694" s="true" lb="TC_Fee_027_GenerateFeeForSelectedStudents 18/02/2023 03:30:26 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1031" sby="1314" ng="1" na="3">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="81" it="0" lt="81" ct="0" ts="1676714426685" s="true" lb="OperationsInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1319" sby="889" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Operation</java.net.URL>
+</httpSample>
+<sample t="1455" it="16" lt="1455" ct="0" ts="1676714425296" s="true" lb="TC_User_002_Web FrontEnd Operation" rc="200" rm="Number of samples in transaction : 11, number of failing samples : 0" tn="User Management 2-1" dt="" by="57186" sby="9893" ng="1" na="3"/>
+<httpSample t="1395" it="0" lt="1394" ct="0" ts="1676714425393" s="true" lb="TC_UR_015_Operation Rejected 18/02/2023 03:30:25 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1097" sby="981" ng="1" na="2">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Rejected</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="113" it="0" lt="92" ct="0" ts="1676714426751" s="true" lb="TC_Fee_028_GetTransactionsId 18/02/2023 03:30:26 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="107898" sby="873" ng="1" na="2">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?page=1</java.net.URL>
+</httpSample>
+<httpSample t="89" it="0" lt="89" ct="0" ts="1676714426924" s="true" lb="TC_Fee_029_Send-fee-reminder 18/02/2023 03:30:26 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="953" sby="903" ng="1" na="2">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Reminder sent</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/send-fee-reminder?userId=6136&amp;transactionId=2217</java.net.URL>
+</httpSample>
+<httpSample t="342" it="0" lt="307" ct="0" ts="1676714427016" s="true" lb="TC_Fee_030_GetStudentFee 18/02/2023 03:30:27 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="92662" sby="939" ng="1" na="2">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;standardId=527&amp;userId=6136&amp;search=</java.net.URL>
+</httpSample>
+<httpSample t="94" it="0" lt="94" ct="0" ts="1676714427362" s="true" lb="TC_Fee_031_Update-offline-transactions 18/02/2023 03:30:27 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1030" sby="1104" ng="1" na="2">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Transaction updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/update-offline-transactions</java.net.URL>
+</httpSample>
+<httpSample t="921" it="0" lt="921" ct="0" ts="1676714426792" s="true" lb="TC_UR_016_Operation Approved 18/02/2023 03:30:26 PM" rc="201" rm="Created" tn="User Registration  1-1" dt="text" by="1577" sby="981" ng="1" na="2">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User has been Approved</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateStatus</java.net.URL>
+</httpSample>
+<httpSample t="99" it="0" lt="99" ct="0" ts="1676714428014" s="true" lb="TC_UR_017_DeleteOperations 18/02/2023 03:30:28 PM" rc="200" rm="OK" tn="User Registration  1-1" dt="text" by="1050" sby="963" ng="1" na="2">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6139</java.net.URL>
+</httpSample>
+<httpSample t="3240" it="0" lt="3240" ct="0" ts="1676714427461" s="true" lb="TC_Fee_032_Edit-offline-payment 18/02/2023 03:30:27 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1026" sby="1215" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment Updated Successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/edit-offline-payment</java.net.URL>
+</httpSample>
+<httpSample t="407" it="0" lt="396" ct="0" ts="1676714430715" s="true" lb="TC_Fee_033_GetStudentFee 18/02/2023 03:30:30 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="102700" sby="939" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;standardId=527&amp;userId=6136&amp;search=</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1676714431124" s="true" lb="TC_Fee_0034Send-invoice 18/02/2023 03:30:31 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="952" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Invoice Sent</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/send-invoice?transactionId=2217</java.net.URL>
+</httpSample>
+<httpSample t="82" it="0" lt="82" ct="0" ts="1676714431171" s="true" lb="TC_Fee_035_Delete-request 18/02/2023 03:30:31 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1008" sby="975" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Request deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/delete-request/2218</java.net.URL>
+</httpSample>
+<httpSample t="1190" it="0" lt="1190" ct="0" ts="1676714431254" s="true" lb="TC_Fee_036_Download-invoices 18/02/2023 03:30:31 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1050" sby="877" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/download-invoices/6136</java.net.URL>
+</httpSample>
+<httpSample t="194" it="0" lt="194" ct="0" ts="1676714432759" s="true" lb="TC_Class_031_DeleteAStudent1 18/02/2023 03:30:32 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1051" sby="963" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6136</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="74" ct="0" ts="1676714433268" s="true" lb="TC_Class_033_DeleteSection1 18/02/2023 03:30:33 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="text" by="1030" sby="1001" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<sample t="14777" it="1250" lt="14513" ct="102" ts="1676714417317" s="true" lb="FeeManagementModule" rc="200" rm="Number of samples in transaction : 42, number of failing samples : 0" tn="FeeManagementModule18/02/2023 03:30:17 PM 3-1" dt="" by="1260017" sby="40589" ng="1" na="1"/>
+
+<httpSample t="1581" it="0" lt="1580" ct="1451" ts="1676715083916" s="true" lb="url" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="3054" sby="451" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/login</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1676715085824" s="true" lb="login" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="1119" sby="827" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/login</java.net.URL>
+</httpSample>
+<httpSample t="8137" it="0" lt="8137" ct="0" ts="1676715086202" s="false" lb="Login" rc="504" rm="Gateway Time-out" tn="SuperAdminLogin 1-1" dt="text" by="1392" sby="1034" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/login/virtual-signin</java.net.URL>
+</httpSample>
+<sample t="9811" it="1346" lt="9787" ct="1451" ts="1676715083205" s="false" lb="UserLogIn" rc="" rm="Number of samples in transaction : 3, number of failing samples : 1" tn="SuperAdminLogin 1-1" dt="" by="5565" sby="2312" ng="1" na="1"/>
+<httpSample t="212" it="0" lt="212" ct="136" ts="1676715094849" s="true" lb="TC_UM_001_AddUserSettings 18/02/2023 03:41:34 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1072" sby="980" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/addUserSettings</java.net.URL>
+</httpSample>
+<httpSample t="235" it="0" lt="235" ct="125" ts="1676715094861" s="true" lb="TC_Course_001_AllCourses 18/02/2023 03:41:34 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="6496" sby="843" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="282" it="0" lt="278" ct="109" ts="1676715094855" s="true" lb="TC_Class_001_GetAllClassrooms 18/02/2023 03:41:34 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="33402" sby="835" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards</java.net.URL>
+</httpSample>
+<httpSample t="67" it="0" lt="67" ct="0" ts="1676715095140" s="true" lb="TC_Class_002_GetAllCourses 18/02/2023 03:41:35 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="6496" sby="846" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="73" ct="0" ts="1676715095214" s="true" lb="TC_Class_003_AddASection1 18/02/2023 03:41:35 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1676715095498" s="true" lb="TC_Class_004_GetASection1 18/02/2023 03:41:35 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1111" sby="856" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/532</java.net.URL>
+</httpSample>
+<httpSample t="164" it="0" lt="164" ct="0" ts="1676715095367" s="true" lb="TC_UM_002_AddAStudent 18/02/2023 03:41:35 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1676715095872" s="true" lb="TC_Class_005_UpdateSection1Details 18/02/2023 03:41:35 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1233" sby="1048" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Section has been updated successfully!</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/edit-single</java.net.URL>
+</httpSample>
+<httpSample t="127" it="0" lt="108" ct="0" ts="1676715095872" s="true" lb="TC_UM_003_GetAStudent 18/02/2023 03:41:35 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="41997" sby="845" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/6140</java.net.URL>
+</httpSample>
+<httpSample t="138" it="0" lt="138" ct="0" ts="1676715096257" s="true" lb="TC_Class_006_AddAStudent1 18/02/2023 03:41:36 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="143" it="0" lt="143" ct="0" ts="1676715096311" s="true" lb="TC_UM_004_UpdateAStudent 18/02/2023 03:41:36 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1665" sby="2415" ng="1" na="5">
+  <assertionResult>
+    <name>Text Response User details updated</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="121" it="0" lt="120" ct="0" ts="1676715096772" s="true" lb="TC_UM_005_DeleteAStudent 18/02/2023 03:41:36 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6140</java.net.URL>
+</httpSample>
+<httpSample t="161" it="0" lt="161" ct="0" ts="1676715096717" s="true" lb="TC_Class_007_AddAStudent2 18/02/2023 03:41:36 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1565" sby="1049" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="81" it="0" lt="81" ct="0" ts="1676715096907" s="true" lb="TC_Class_008_SearchStudent 18/02/2023 03:41:36 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1068" sby="883" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/autocomplete?name=Mahi&amp;role=Student</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="95" ct="0" ts="1676715096992" s="true" lb="TC_Class_009_AssignStudents 18/02/2023 03:41:36 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1012" sby="1008" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Message Class Assigned</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/assign-students</java.net.URL>
+</httpSample>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1676715097093" s="true" lb="TC_Class_010_AddASection2 18/02/2023 03:41:37 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="133" it="0" lt="133" ct="0" ts="1676715097179" s="true" lb="TC_Class_011_TransferStudentToSection2 18/02/2023 03:41:37 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1017" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Message Student(s) Moved Successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/move-students</java.net.URL>
+</httpSample>
+<httpSample t="141" it="0" lt="141" ct="0" ts="1676715097200" s="true" lb="TC_UM_006_AddATeacher 18/02/2023 03:41:37 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1600" sby="1068" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="0" ts="1676715097318" s="true" lb="TC_Class_012_UnassignStudentFromSection1 18/02/2023 03:41:37 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1011" sby="996" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Student unassigned</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/students</java.net.URL>
+</httpSample>
+<httpSample t="90" it="0" lt="90" ct="0" ts="1676715097664" s="true" lb="TC_UM_007_GetATeacher 18/02/2023 03:41:37 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2039" sby="864" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/6143</java.net.URL>
+</httpSample>
+<httpSample t="86" it="0" lt="86" ct="0" ts="1676715097703" s="true" lb="TC_Class_013_CreateSubjectsForSection1 18/02/2023 03:41:37 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1015" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subjects created successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-subjects</java.net.URL>
+</httpSample>
+<httpSample t="262" it="0" lt="262" ct="0" ts="1676715097792" s="true" lb="TC_Class_014_GetASection1 18/02/2023 03:41:37 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1428" sby="856" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/standards/532</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1676715098120" s="true" lb="TC_Course_002_AddACourse 18/02/2023 03:41:38 PM" rc="201" rm="Created" tn="CoursesModule 5-1" dt="text" by="1010" sby="1403" ng="1" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/updateCourse</java.net.URL>
+</httpSample>
+<httpSample t="155" it="0" lt="155" ct="0" ts="1676715098081" s="true" lb="TC_UM_008_UpdateATeacher 18/02/2023 03:41:38 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1700" sby="3272" ng="1" na="5">
+  <assertionResult>
+    <name>Text Response User details updated</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1676715098203" s="true" lb="TC_Course_003_CoursesPage 18/02/2023 03:41:38 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="6699" sby="843" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="85" it="0" lt="85" ct="0" ts="1676715098369" s="true" lb="TC_Class_015_CreateChaptersInSubjectOne 18/02/2023 03:41:38 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1026" sby="1037" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response  Chapters added successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-chapters</java.net.URL>
+</httpSample>
+<httpSample t="90" it="0" lt="90" ct="0" ts="1676715098546" s="true" lb="TC_UM_009_DeleteATeacher 18/02/2023 03:41:38 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="982" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6143</java.net.URL>
+</httpSample>
+<httpSample t="94" it="0" lt="93" ct="0" ts="1676715098769" s="true" lb="TC_Class_016_CreateChaptersInSubjectTwo 18/02/2023 03:41:38 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1026" sby="1035" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response  Chapters added successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-chapters</java.net.URL>
+</httpSample>
+<httpSample t="73" it="0" lt="73" ct="0" ts="1676715098871" s="true" lb="TC_Class_017_GetASection1 18/02/2023 03:41:38 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1985" sby="856" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/532</java.net.URL>
+</httpSample>
+<httpSample t="94" it="0" lt="94" ct="0" ts="1676715098952" s="true" lb="TC_Class_018_EditSubjectOneName 18/02/2023 03:41:38 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1386" sby="1009" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject edited successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/edit-subject</java.net.URL>
+</httpSample>
+<httpSample t="129" it="0" lt="129" ct="0" ts="1676715098944" s="true" lb="TC_UM_010_AddADataOperator 18/02/2023 03:41:38 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1624" sby="1092" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="95" ct="0" ts="1676715099050" s="true" lb="TC_Class_019_EditSubjectTwoName 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1386" sby="1009" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject edited successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/edit-subject</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1676715099152" s="true" lb="TC_Class_020_EditChaptersInSubject1 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1025" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Chapters updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/edit-chapters</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1676715099225" s="true" lb="TC_Class_021_AddANewSection1ToClass 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1676715099393" s="true" lb="TC_UM_011_GetADataOperator 18/02/2023 03:41:39 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2087" sby="870" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/userId/6144</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1676715099599" s="true" lb="TC_Class_022_CreateSubjectsForNewSection1 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1027" sby="1015" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subjects created successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/create-subjects</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="73" ct="0" ts="1676715099681" s="true" lb="TC_Class_023_CloneSubjectsToNewSection2 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1025" sby="965" ng="1" na="5">
+  <assertionResult>
+    <name>Text Response Section cloned successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/clone</java.net.URL>
+</httpSample>
+<httpSample t="83" it="0" lt="83" ct="0" ts="1676715099761" s="true" lb="TC_Class_024_TransferSectionToAnotherClass 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1015" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Section transferred successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/move</java.net.URL>
+</httpSample>
+<httpSample t="72" it="0" lt="71" ct="0" ts="1676715099852" s="true" lb="TC_Class_025_DeleteChaptersInSubjectOne 18/02/2023 03:41:39 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1032" sby="1061" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Chapters have been deleted successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/delete-chapters?chapterIds[]=2465&amp;chapterIds[]=2466</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1676715099926" s="true" lb="TC_Class_026_DeleteSubject1 18/02/2023 03:41:39 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1034" sby="1039" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject(s) have been removed successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/delete-subjects?standardId=532&amp;subjectId=436</java.net.URL>
+</httpSample>
+<httpSample t="244" it="0" lt="244" ct="0" ts="1676715099784" s="true" lb="TC_UM_012_UpdateADataOperator 18/02/2023 03:41:39 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1710" sby="3247" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1676715100001" s="true" lb="TC_Class_027_DeleteSubject2 18/02/2023 03:41:39 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1034" sby="1039" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Subject(s) have been removed successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/subjects/delete-subjects?standardId=532&amp;subjectId=437</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1676715100068" s="true" lb="TC_Class_028_ClickOnCurriculums 18/02/2023 03:41:40 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="3488" sby="863" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/master-subjects/curriculums</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1676715100124" s="true" lb="TC_Class_029_SelectSubjects 18/02/2023 03:41:40 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="914" sby="888" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/master-subjects/subjects?curriculumId=1&amp;standardId=1</java.net.URL>
+</httpSample>
+<httpSample t="101" it="0" lt="101" ct="0" ts="1676715100335" s="true" lb="TC_UM_013_DeleteADataOperator 18/02/2023 03:41:40 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="988" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6144</java.net.URL>
+</httpSample>
+<httpSample t="139" it="0" lt="139" ct="0" ts="1676715100473" s="true" lb="TC_Class_031_DeleteAStudent1 18/02/2023 03:41:40 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1051" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6141</java.net.URL>
+</httpSample>
+<httpSample t="186" it="0" lt="186" ct="0" ts="1676715100751" s="true" lb="TC_UM_014_AddAOperation 18/02/2023 03:41:40 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1621" sby="1089" ng="1" na="5">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="123" it="0" lt="123" ct="0" ts="1676715100930" s="true" lb="TC_Class_032_DeleteAStudent2 18/02/2023 03:41:40 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1050" sby="963" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6142</java.net.URL>
+</httpSample>
+<httpSample t="86" it="0" lt="85" ct="0" ts="1676715101253" s="true" lb="TC_UM_015_GetAOperations 18/02/2023 03:41:41 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2081" sby="845" ng="1" na="5">
+  <java.net.URL>https://test.aulas.one/api/user/userId/6145</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1676715101276" s="true" lb="TC_Course_004_UpdateACourse 18/02/2023 03:41:41 PM" rc="201" rm="Created" tn="CoursesModule 5-1" dt="text" by="1012" sby="1224" ng="1" na="5">
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/updateCourse</java.net.URL>
+</httpSample>
+<httpSample t="98" it="0" lt="98" ct="0" ts="1676715101371" s="true" lb="TC_Class_033_DeleteSection1 18/02/2023 03:41:41 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1001" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="67" ct="0" ts="1676715101657" s="true" lb="TC_Course_005_DeleteCourse 18/02/2023 03:41:41 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="1007" sby="974" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/deleteCouse/177</java.net.URL>
+</httpSample>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1676715101728" s="true" lb="TC_Course_006_AllCourses 18/02/2023 03:41:41 PM" rc="200" rm="OK" tn="CoursesModule 5-1" dt="text" by="1086" sby="855" ng="1" na="5">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses?search=ghkj</java.net.URL>
+</httpSample>
+<sample t="578" it="6389" lt="577" ct="125" ts="1676715094823" s="true" lb="CoursesPage" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="CoursesModule 5-1" dt="" by="17310" sby="6142" ng="1" na="5"/>
+<httpSample t="161" it="0" lt="161" ct="0" ts="1676715101657" s="true" lb="TC_UM_016_UpdateOperations 18/02/2023 03:41:41 PM" rc="201" rm="Created" tn="User Management 2-1" dt="text" by="1698" sby="3071" ng="1" na="4">
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1676715101782" s="true" lb="TC_Class_034_DeleteSection2 18/02/2023 03:41:41 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1001" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<httpSample t="100" it="0" lt="100" ct="0" ts="1676715101863" s="true" lb="TC_Class_035_AddANewClass 18/02/2023 03:41:41 PM" rc="201" rm="Created" tn="ClassRoomsModule 4-1" dt="text" by="1182" sby="1013" ng="1" na="4">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1676715101971" s="true" lb="TC_Class_036_UpdateClassDetails 18/02/2023 03:41:41 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1227" ng="1" na="4">
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<httpSample t="97" it="0" lt="97" ct="0" ts="1676715102123" s="true" lb="TC_UM_017_DeleteOperations 18/02/2023 03:41:42 PM" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1048" sby="963" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Assertion User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6145</java.net.URL>
+</httpSample>
+<sample t="2324" it="5094" lt="2303" ct="136" ts="1676715094802" s="true" lb="TC_User_001_API Operations" rc="200" rm="Number of samples in transaction : 17, number of failing samples : 0" tn="User Management 2-1" dt="" by="66651" sby="24603" ng="1" na="4"/>
+<httpSample t="140" it="0" lt="139" ct="0" ts="1676715102222" s="true" lb="UsersPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="6085" sby="890" ng="1" na="4">
+  <java.net.URL>https://test.aulas.one/api/user/stats?type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1676715102343" s="true" lb="TC_Class_037_DeleteClass 18/02/2023 03:41:42 PM" rc="200" rm="OK" tn="ClassRoomsModule 4-1" dt="text" by="1030" sby="1001" ng="1" na="4">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<sample t="3444" it="4145" lt="3434" ct="109" ts="1676715094831" s="true" lb="ClassRoomsModule" rc="200" rm="Number of samples in transaction : 36, number of failing samples : 0" tn="ClassRoomsModule 4-1" dt="" by="81314" sby="35522" ng="1" na="4"/>
+<httpSample t="160" it="0" lt="158" ct="0" ts="1676715102363" s="true" lb="StudentsPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="12766" sby="922" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Student&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="94" it="0" lt="94" ct="0" ts="1676715102525" s="true" lb="TeachersPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="7481" sby="921" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Teacher&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="100" it="0" lt="99" ct="0" ts="1676715102621" s="true" lb="DataOperatorsPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="7211" sby="932" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Dataoperator&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="95" it="0" lt="93" ct="0" ts="1676715102722" s="true" lb="OperationsPage" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="7671" sby="926" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Operation&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1676715102819" s="true" lb="PendingClick" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="2966" sby="873" ng="1" na="3">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=pending</java.net.URL>
+</httpSample>
+<httpSample t="8253" it="0" lt="8253" ct="208" ts="1676715094673" s="false" lb="TC_UR_001_Teacher Registeration 18/02/2023 03:41:34 PM" rc="504" rm="Gateway Time-out" tn="User Registration  1-1" dt="text" by="1392" sby="1398" ng="1" na="3">
+  <assertionResult>
+    <name>Text Assertion Details have been updated and sent for approval</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /Details have been updated and sent for approval/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: message expected to contain /Created/</failureMessage>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/register</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="74" ct="0" ts="1676715102897" s="true" lb="RejectedClick" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="4810" sby="874" ng="1" na="2">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected</java.net.URL>
+</httpSample>
+<httpSample t="8183" it="0" lt="8183" ct="112" ts="1676715094859" s="true" lb="TC_Course_001_AllCourses 18/02/2023 03:41:34 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="6496" sby="843" ng="1" na="2">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="84" it="0" lt="84" ct="0" ts="1676715102974" s="true" lb="StudentInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="3522" sby="887" ng="1" na="2">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Student</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="63" ct="0" ts="1676715103060" s="true" lb="TeacherInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1481" sby="887" ng="1" na="2">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Teacher</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="74" ct="0" ts="1676715103125" s="true" lb="DataOperatorInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="1807" sby="892" ng="1" na="2">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=DataOperator</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1676715103202" s="true" lb="OperationsInDropdown" rc="200" rm="OK" tn="User Management 2-1" dt="text" by="999" sby="889" ng="1" na="2">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Operation</java.net.URL>
+</httpSample>
+<sample t="1028" it="19" lt="1020" ct="0" ts="1676715102222" s="true" lb="TC_User_002_Web FrontEnd Operation" rc="200" rm="Number of samples in transaction : 11, number of failing samples : 0" tn="User Management 2-1" dt="" by="56799" sby="9893" ng="1" na="2"/>
+<httpSample t="1663" it="0" lt="1638" ct="0" ts="1676715103047" s="true" lb="TC_Fee_001_GetFeePage 18/02/2023 03:41:43 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55084" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-01-29&amp;endDate=2023-02-04</java.net.URL>
+</httpSample>
+<httpSample t="930" it="0" lt="919" ct="0" ts="1676715104714" s="true" lb="TC_Fee_002_GetFeePageWeekChange 18/02/2023 03:41:44 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55084" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="769" it="0" lt="759" ct="0" ts="1676715105647" s="true" lb="TC_Fee_003_GetFeePageMonth 18/02/2023 03:41:45 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55416" sby="897" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=month&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;year=2023</java.net.URL>
+</httpSample>
+<httpSample t="469" it="0" lt="461" ct="0" ts="1676715106418" s="true" lb="TC_Fee_004_GetFeePageMonthChange 18/02/2023 03:41:46 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55417" sby="897" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=month&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;year=2022</java.net.URL>
+</httpSample>
+<httpSample t="90" it="0" lt="89" ct="0" ts="1676715106890" s="true" lb="TC_Fee_005_UpdateSettings 18/02/2023 03:41:46 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1014" sby="1004" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/updateSettings</java.net.URL>
+</httpSample>
+<httpSample t="80" it="0" lt="80" ct="0" ts="1676715106984" s="true" lb="TC_Class_003_AddASection1 18/02/2023 03:41:46 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1182" sby="1013" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/add</java.net.URL>
+</httpSample>
+<httpSample t="127" it="0" lt="127" ct="0" ts="1676715107371" s="true" lb="TC_Class_006_AddAStudent1 18/02/2023 03:41:47 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1565" sby="1049" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="115" it="0" lt="115" ct="0" ts="1676715107519" s="true" lb="TC_Class_009_AssignStudents 18/02/2023 03:41:47 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1012" sby="1003" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Message Class Assigned</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/assign-students</java.net.URL>
+</httpSample>
+<httpSample t="647" it="0" lt="633" ct="0" ts="1676715107637" s="true" lb="TC_Fee_006_GetFeePage 18/02/2023 03:41:47 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55614" sby="897" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=month&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;year=2022</java.net.URL>
+</httpSample>
+<httpSample t="129" it="0" lt="126" ct="0" ts="1676715108289" s="true" lb="TC_Fee_007_GetfeeStandards 18/02/2023 03:41:48 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="12125" sby="848" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/byStandards</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1676715108423" s="true" lb="TC_Fee_008_GetUser 18/02/2023 03:41:48 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1215" sby="859" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/getUser?standardId=538</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="0" ts="1676715108489" s="true" lb="TC_Fee_009_GenerateFeeRequestForStudent 18/02/2023 03:41:48 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1031" sby="1298" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="565" it="0" lt="555" ct="0" ts="1676715108555" s="true" lb="TC_Fee_010_GetFeePage 18/02/2023 03:41:48 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55175" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="76" it="0" lt="73" ct="0" ts="1676715109124" s="true" lb="TC_Fee_011_GetfeeStandards 18/02/2023 03:41:49 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="12125" sby="848" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/byStandards</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1676715109204" s="true" lb="TC_Fee_012_GetUser 18/02/2023 03:41:49 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1215" sby="859" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/getUser?standardId=538</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1676715109263" s="true" lb="TC_Fee_013_GenerateFeeRequestForClass 18/02/2023 03:41:49 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1031" sby="1283" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/standard</java.net.URL>
+</httpSample>
+<httpSample t="660" it="0" lt="650" ct="0" ts="1676715109335" s="true" lb="TC_Fee_014_GetFeePage 18/02/2023 03:41:49 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55362" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="135" it="0" lt="93" ct="0" ts="1676715109998" s="true" lb="TC_Fee_016_AllTransactions 18/02/2023 03:41:49 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="108062" sby="882" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?status=paidAndRefunded&amp;page=1</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="55" ct="0" ts="1676715110135" s="true" lb="TC_Fee_017_GetUser 18/02/2023 03:41:50 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1215" sby="859" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/getUser?standardId=538</java.net.URL>
+</httpSample>
+<httpSample t="75" it="0" lt="57" ct="0" ts="1676715110193" s="true" lb="TC_Fee_018_GetTransactions-by-User 18/02/2023 03:41:50 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="87631" sby="874" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/transactions-by-user/263/5286?search=</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1676715110270" s="true" lb="TC_Fee_019_AddOfflinePayment 18/02/2023 03:41:50 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1028" sby="1299" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Transaction added successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="504" it="0" lt="501" ct="0" ts="1676715110326" s="true" lb="TC_Fee_020_GetFeePage 18/02/2023 03:41:50 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="55881" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11</java.net.URL>
+</httpSample>
+<httpSample t="136" it="0" lt="106" ct="0" ts="1676715110831" s="true" lb="TC_Fee_021_AllTransactionsPage 18/02/2023 03:41:50 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="107570" sby="874" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?page=1</java.net.URL>
+</httpSample>
+<httpSample t="267" it="0" lt="266" ct="0" ts="1676715110970" s="true" lb="TC_Fee_022_Download-report 18/02/2023 03:41:50 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1000" sby="885" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/download-report?filter=lastweek</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1676715111239" s="true" lb="TC_Fee_023_GenerateFeeForSelectedStudents 18/02/2023 03:41:51 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1031" sby="1314" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="122" it="0" lt="95" ct="0" ts="1676715111299" s="true" lb="TC_Fee_024_GetTransactionsId 18/02/2023 03:41:51 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="107766" sby="873" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?page=1</java.net.URL>
+</httpSample>
+<httpSample t="87" it="0" lt="87" ct="0" ts="1676715111479" s="true" lb="TC_Fee_024_CancelRequest 18/02/2023 03:41:51 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1010" sby="986" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Request cancelled</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/cancel-request/2222</java.net.URL>
+</httpSample>
+<httpSample t="104" it="0" lt="91" ct="0" ts="1676715111569" s="true" lb="TC_Fee_025_GetUserId 18/02/2023 03:41:51 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="42419" sby="865" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/6146</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="70" ct="0" ts="1676715111676" s="true" lb="TC_Fee_026_GetStudentCourses 18/02/2023 03:41:51 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="9937" sby="861" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/courses</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1676715111750" s="true" lb="TC_Fee_027_GenerateFeeForSelectedStudents 18/02/2023 03:41:51 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1031" sby="1314" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment request sent successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2</java.net.URL>
+</httpSample>
+<httpSample t="146" it="0" lt="115" ct="0" ts="1676715111810" s="true" lb="TC_Fee_028_GetTransactionsId 18/02/2023 03:41:51 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="107971" sby="873" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/allTransactions?page=1</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1676715112047" s="true" lb="TC_Fee_029_Send-fee-reminder 18/02/2023 03:41:52 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="953" sby="903" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Reminder sent</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/send-fee-reminder?userId=6146&amp;transactionId=2222</java.net.URL>
+</httpSample>
+<httpSample t="370" it="0" lt="348" ct="0" ts="1676715112120" s="true" lb="TC_Fee_030_GetStudentFee 18/02/2023 03:41:52 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="93059" sby="939" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;standardId=538&amp;userId=6146&amp;search=</java.net.URL>
+</httpSample>
+<httpSample t="83" it="0" lt="83" ct="0" ts="1676715112492" s="true" lb="TC_Fee_031_Update-offline-transactions 18/02/2023 03:41:52 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1030" sby="1104" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Transaction updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/update-offline-transactions</java.net.URL>
+</httpSample>
+<httpSample t="3267" it="0" lt="3267" ct="0" ts="1676715112579" s="true" lb="TC_Fee_032_Edit-offline-payment 18/02/2023 03:41:52 PM" rc="201" rm="Created" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1026" sby="1215" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Payment Updated Successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/edit-offline-payment</java.net.URL>
+</httpSample>
+<httpSample t="339" it="0" lt="302" ct="0" ts="1676715115849" s="true" lb="TC_Fee_033_GetStudentFee 18/02/2023 03:41:55 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="103097" sby="939" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2?type=week&amp;startDate=2023-02-05&amp;endDate=2023-02-11&amp;standardId=538&amp;userId=6146&amp;search=</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="52" ct="0" ts="1676715116192" s="true" lb="TC_Fee_0034Send-invoice 18/02/2023 03:41:56 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="952" sby="886" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Invoice Sent</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/send-invoice?transactionId=2222</java.net.URL>
+</httpSample>
+<httpSample t="90" it="0" lt="90" ct="0" ts="1676715116248" s="true" lb="TC_Fee_035_Delete-request 18/02/2023 03:41:56 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1008" sby="975" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Request deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/delete-request/2223</java.net.URL>
+</httpSample>
+<httpSample t="1242" it="0" lt="1242" ct="0" ts="1676715116342" s="true" lb="TC_Fee_036_Download-invoices 18/02/2023 03:41:56 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1050" sby="877" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/feev2/download-invoices/6146</java.net.URL>
+</httpSample>
+<httpSample t="192" it="0" lt="192" ct="0" ts="1676715117904" s="true" lb="TC_Class_031_DeleteAStudent1 18/02/2023 03:41:57 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1051" sby="963" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response User Deleted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/6146</java.net.URL>
+</httpSample>
+<httpSample t="69" it="0" lt="69" ct="0" ts="1676715118404" s="true" lb="TC_Class_033_DeleteSection1 18/02/2023 03:41:58 PM" rc="200" rm="OK" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="text" by="1030" sby="1001" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text Response Standard details updated successfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/standards/update-standards</java.net.URL>
+</httpSample>
+<sample t="22397" it="1227" lt="22075" ct="112" ts="1676715094849" s="true" lb="FeeManagementModule" rc="200" rm="Number of samples in transaction : 42, number of failing samples : 0" tn="FeeManagementModule18/02/2023 03:41:34 PM 3-1" dt="" by="1264971" sby="40589" ng="1" na="1"/>
+
 </testResults>
