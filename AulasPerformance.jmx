@@ -20,11 +20,6 @@
     <hashTree>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="logfile" elementType="Argument">
-            <stringProp name="Argument.name">logfile</stringProp>
-            <stringProp name="Argument.value">C:\Users\Brigosha_Guest\Desktop\Jmeter_jmx\log${__time(,)}.csv</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="weekday" elementType="Argument">
             <stringProp name="Argument.name">weekday</stringProp>
             <stringProp name="Argument.value">${__time(EEEE)}</stringProp>
@@ -21854,7 +21849,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${logfile}</stringProp>
+        <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
