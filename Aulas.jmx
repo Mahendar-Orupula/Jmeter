@@ -49748,7 +49748,7 @@ Please find the report of new build Performance_report${__time(dd/MM/yyyy hh:mm:
       </hashTree>
       <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Notifications Stepping Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(Notifications,1)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(Users,1)}</stringProp>
         <stringProp name="Threads initial delay">${__P(FirstWaitForSec,5)}</stringProp>
         <stringProp name="Start users count">${__P(NextAddThreads,1)}</stringProp>
         <stringProp name="Start users count burst">${__P(ThenStartThreads,5)}</stringProp>
