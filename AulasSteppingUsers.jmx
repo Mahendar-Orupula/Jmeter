@@ -20,11 +20,6 @@
     <hashTree>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="logfile" elementType="Argument">
-            <stringProp name="Argument.name">logfile</stringProp>
-            <stringProp name="Argument.value"></stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="weekday" elementType="Argument">
             <stringProp name="Argument.name">weekday</stringProp>
             <stringProp name="Argument.value">${__time(EEEE)}</stringProp>
@@ -27642,17 +27637,17 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
         </TransactionController>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Digital Library  Module" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Digital Library  Module" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(Users,1)}</stringProp>
-        <stringProp name="Threads initial delay">${__P(FirstWaitForSec,5)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(Users,5)}</stringProp>
+        <stringProp name="Threads initial delay">${__P(FirstWaitForSec,1)}</stringProp>
         <stringProp name="Start users count">${__P(NextAddThreads,1)}</stringProp>
         <stringProp name="Start users count burst">${__P(ThenStartThreads,1)}</stringProp>
-        <stringProp name="Start users period">${__P(EverySec,30)}</stringProp>
+        <stringProp name="Start users period">${__P(EverySec,1)}</stringProp>
         <stringProp name="Stop users count">${__P(FinallyStopThreads,1)}</stringProp>
-        <stringProp name="Stop users period">${__P(EverySecond,30)}</stringProp>
-        <stringProp name="flighttime">{__P(ThenHoldLoadForSec,1)}</stringProp>
-        <stringProp name="rampUp">5</stringProp>
+        <stringProp name="Stop users period">${__P(EverySecond,1)}</stringProp>
+        <stringProp name="flighttime">${__P(ThenHoldLoadForSec,1)}</stringProp>
+        <stringProp name="rampUp">1</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
@@ -27783,7 +27778,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_002_AddASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_002_AddASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -27899,7 +27894,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_003_CreateSubjectsForSection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_003_CreateSubjectsForSection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -28017,7 +28012,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_004_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_004_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -28118,7 +28113,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_005_CreateChaptersInSubjectOne ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_005_CreateChaptersInSubjectOne ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -28236,7 +28231,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_006_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_006_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -28337,7 +28332,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_007_GetAllSubjects" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_007_GetAllSubjects" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="name" elementType="HTTPArgument">
@@ -28434,7 +28429,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_008_GetAllChapters" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_008_GetAllChapters" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="name" elementType="HTTPArgument">
@@ -28545,7 +28540,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_009_GetStandardBySubject" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_009_GetStandardBySubject" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="subjectId" elementType="HTTPArgument">
@@ -28649,7 +28644,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_010_CreateATopic" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_010_CreateATopic" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -28763,7 +28758,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_011_GetAllTopics" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_011_GetAllTopics" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="subjectId" elementType="HTTPArgument">
@@ -28880,7 +28875,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="false">
           <boolProp name="LoopController.continue_forever">true</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </LoopController>
@@ -29431,7 +29426,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
             <hashTree/>
           </hashTree>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_015_GetSectionLibraryDetails" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_015_GetSectionLibraryDetails" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="id" elementType="HTTPArgument">
@@ -29528,7 +29523,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_016_Get Subject-chapter-list" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_016_Get Subject-chapter-list" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="subjectId" elementType="HTTPArgument">
@@ -29639,7 +29634,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_017_teacher-management" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_017_teacher-management" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="subjectId" elementType="HTTPArgument">
@@ -29743,7 +29738,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_018_AddATeacher ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_018_AddATeacher ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -29857,7 +29852,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">T_ID</stringProp>
+            <stringProp name="JSONPostProcessor.referenceNames">Teacher_ID</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$..id</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
@@ -29867,7 +29862,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_019_Viewing Access Teacher" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_019_Viewing Access Teacher" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -29981,7 +29976,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_020_GetAChapter" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_020_GetAChapter" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="chapterId" elementType="HTTPArgument">
@@ -30099,7 +30094,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_021_Get All-Lecture-notes" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_021_Get All-Lecture-notes" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="type" elementType="HTTPArgument">
@@ -30237,7 +30232,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_022_Edit-Lecture-Notes" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_022_Edit-Lecture-Notes" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -30351,7 +30346,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_023_AddASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_023_AddASection2 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -30467,7 +30462,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_024_CreateSubjectsForSection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_024_CreateSubjectsForSection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -30585,7 +30580,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_025_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_025_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -30680,7 +30675,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_026_CreateChaptersInSubjectOne ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_026_CreateChaptersInSubjectOne ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -30798,7 +30793,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_027_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_027_GetASection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -30899,7 +30894,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_028_CreateATopic" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_028_CreateATopic" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -31013,7 +31008,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_029_GetAllTopics" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_029_GetAllTopics" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="subjectId" elementType="HTTPArgument">
@@ -31130,7 +31125,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_030_Clone-Content" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_030_Clone-Content" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -31246,7 +31241,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_031_Delete Lecture notes" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_031_Delete Lecture notes" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="id" elementType="HTTPArgument">
@@ -31362,7 +31357,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_032_Edit-TopicName" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_032_Edit-TopicName" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -31476,7 +31471,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_033_Delete-Topic" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_033_Delete-Topic" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -31590,7 +31585,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_034_DeleteSection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_034_DeleteSection1 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -31708,7 +31703,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_035_DeleteSection2 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_035_DeleteSection2 ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -31826,7 +31821,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_036_DeleteATeacher ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC_DL_036_DeleteATeacher ${__time(dd/MM/yyyy hh:mm:ss a,)}" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -31834,7 +31829,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/user/delete/${T_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">/api/user/delete/${Teacher_ID}</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
