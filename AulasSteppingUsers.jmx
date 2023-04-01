@@ -27637,7 +27637,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
         </TransactionController>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Digital Library  Module" enabled="false">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Digital Library  Module" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">${__P(Users,5)}</stringProp>
         <stringProp name="Threads initial delay">${__P(FirstWaitForSec,1)}</stringProp>
@@ -43141,7 +43141,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Notification Module" enabled="false">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Notification Module" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">${__P(Users,1)}</stringProp>
         <stringProp name="Threads initial delay">${__P(FirstWaitForSec,5)}</stringProp>
@@ -43150,7 +43150,7 @@ else if(prev.getTextResponse().contains(&quot;User added succesfully&quot;))
         <stringProp name="Start users period">${__P(EverySec,30)}</stringProp>
         <stringProp name="Stop users count">${__P(FinallyStopThreads,1)}</stringProp>
         <stringProp name="Stop users period">${__P(EverySecond,30)}</stringProp>
-        <stringProp name="flighttime">$${__P(ThenHoldLoadForSec,1)}</stringProp>
+        <stringProp name="flighttime">$${__P(ThenHoldLoadForSec,60)}</stringProp>
         <stringProp name="rampUp">5</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
